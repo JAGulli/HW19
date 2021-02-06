@@ -1,0 +1,280 @@
+
+/* Sections*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+margin: 0px 10% 0px 10%;
+}
+header{
+    outline: 1px solid rgb(255, 0, 234);
+
+}
+#Welcome{
+    height: 800px;
+    padding: 25px;
+    margin: 0 auto;
+    outline: 5px solid greenyellow;
+
+}
+#MyWork{
+    height: auto;
+    padding: 25px;
+    margin: 0 auto;
+    outline: 5px solid greenyellow;
+}
+#MySkills{
+    height: auto;
+    padding: 25px;
+    margin: 0 auto;
+    outline: 5px solid greenyellow;
+
+}
+footer{
+    outline: 5px solid greenyellow;
+
+}
+
+/* Components*/
+
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    outline: 1px solid red;
+}
+nav{
+    width: 80%;
+    font-family: 'Fauna One', serif;
+    font-size: 16pt;
+    outline: 7px solid rgb(255, 0, 234);
+
+}
+.logo{
+    width: 17%;
+    height: auto;
+    text-align: center;
+    outline: 1px solid red;
+}
+.navHead{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 30%;
+    outline: 1px solid red;
+
+}
+button{
+    font-family: 'Comfortaa', cursive;
+    font-size: 16pt;
+    transition: 0.3s;
+    background-color: #AABBB6;
+    border: .5px solid #6C8887 ;
+    border-radius: 4px;
+    outline: 1px solid red;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px;
+}
+button:hover{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    outline: 1px solid red;
+}
+.return{
+    float:right;
+    vertical-align: top;
+}
+.heroGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 2fr 2fr;
+    outline: 1px solid red;
+    height: 750px;
+}
+.top{
+    grid-row: 1 / 2;
+    grid-column: 1 / 5;
+}
+.btmLeft{
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+    justify-self: right;
+    padding-left: 10%;
+    
+}
+.btmRight{
+    grid-row: 2 / 3 ;
+    grid-column: 3 / 5 ;
+    justify-self: right;
+    padding-right: 10%;
+}
+.resume{
+    justify-self: center;
+}
+.mockup{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red
+}
+.mySkills{
+    text-align: center;
+    text-justify: auto;
+    width: 33%;
+    border: px slateblue;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.grid{
+    display: grid;
+    outline: 1px solid red;
+    columns: 1fr 1fr 1fr;
+    grid-template-rows: .8fr .5fr 2fr .5fr;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    vertical-align: top;
+    font-family: 'Fauna One', serif;
+    font-size: 16pt;
+    outline: 1px solid red;
+    width: 60%;
+    justify-content: space-between;
+    padding-left: 19%;
+}
+footer p{
+    width: 75;
+}
+#sayHi{
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid red;
+}
+.ftrSocials{
+    display: flex;
+    justify-content: space-around;
+    outline: solid red;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}
+.copyright{
+    display: flex;
+    justify-content: right;
+    vertical-align: middle;
+    padding-left: 43%;
+    outline: solid red;
+}
+/* Font Text Headings */
+
+h2{
+    font-family: 'Fauna One', serif;
+    font-size: 36pt;
+
+}
+h3{
+    font-family: 'Fauna One', serif;
+    font-size: 24pt;
+}
+h4{
+    font-family: 'Fauna One', serif;
+    font-size: 20pt;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 16pt;
+}
+
+li{
+    font-family: 'Comfortaa', cursive;
+    font-size: 16pt;
+}
+/* Media Query */
+
+@media only screen and (max-width: 600px) {
+    #Welcome{
+        height: 1200px;
+    }
+    body{
+        margin: 0px 2% 0px 2%;
+        }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+        width: 100%;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .mySkills{
+        text-align: center;
+        text-justify: auto;
+        width: 100%;
+        border: px slateblue;
+    }
+    .grid{
+        display: grid;
+        outline: 1px solid red;
+        columns: 1fr;
+        grid-template-rows: .8fr .5fr 2fr .5fr;
+        align-items: center;
+    }
+    .sayHi{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 250px;
+        outline: 1px solid red;
+    }
+    .ftrSocials{
+        display: flex;
+        justify-content: space-around;
+        outline: solid red;
+        width: 70%;
+        margin: auto;
+        align-items: center;
+    }
+    .copyright{
+        display: flex;
+        justify-content: right;
+        vertical-align: middle;
+        padding-left: 43%;
+        outline: solid red;
+    }
+    .heroGrid{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 2fr 2fr 2fr;
+        outline: 1px solid red;
+        height: 750px;
+    }
+    .top{
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+    .btmLeft{
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+        justify-self: left;
+        padding-left: 10%;
+        
+    }
+    .btmRight{
+        grid-row: 3 / 4 ;
+        grid-column: 1 / 2 ;
+        justify-self: center;
+    }
+}
