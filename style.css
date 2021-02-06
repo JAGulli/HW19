@@ -7,31 +7,26 @@ body{
 margin: 0px 10% 0px 10%;
 }
 header{
-    outline: 1px solid rgb(255, 0, 234);
 
 }
 #Welcome{
     height: 800px;
     padding: 25px;
     margin: 0 auto;
-    outline: 5px solid greenyellow;
 
 }
 #MyWork{
     height: auto;
     padding: 25px;
     margin: 0 auto;
-    outline: 5px solid greenyellow;
 }
 #MySkills{
     height: auto;
     padding: 25px;
     margin: 0 auto;
-    outline: 5px solid greenyellow;
 
 }
 footer{
-    outline: 5px solid greenyellow;
 
 }
 
@@ -40,29 +35,21 @@ footer{
 .inline-block{
     display: inline-block;
     vertical-align: top;
-    padding: 5px;
-    outline: 1px solid red;
-}
+    padding: 5px;}
 nav{
     width: 80%;
     font-family: 'Fauna One', serif;
     font-size: 16pt;
-    outline: 7px solid rgb(255, 0, 234);
-
 }
 .logo{
     width: 17%;
     height: auto;
-    text-align: center;
-    outline: 1px solid red;
-}
+    text-align: center;}
 .navHead{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     padding-left: 30%;
-    outline: 1px solid red;
-
 }
 button{
     font-family: 'Comfortaa', cursive;
@@ -70,17 +57,13 @@ button{
     transition: 0.3s;
     background-color: #AABBB6;
     border: .5px solid #6C8887 ;
-    border-radius: 4px;
-    outline: 1px solid red;
-    width: fit-content;
+    border-radius: 4px;    width: fit-content;
     height: fit-content;
     padding: 15px;
 }
 button:hover{
     font-family: 'Comfortaa', cursive;
-    font-weight: bolder;
-    outline: 1px solid red;
-}
+    font-weight: bolder;}
 .return{
     float:right;
     vertical-align: top;
@@ -88,9 +71,7 @@ button:hover{
 .heroGrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 2fr 2fr;
-    outline: 1px solid red;
-    height: 750px;
+    grid-template-rows: 2fr 2fr;    height: 750px;
 }
 .top{
     grid-row: 1 / 2;
@@ -121,9 +102,7 @@ button:hover{
 }
 .flex{
     display: flex;
-    flex-direction: column;
-    border: 1px solid red
-}
+    flex-direction: column;}
 .mySkills{
     text-align: center;
     text-justify: auto;
@@ -136,9 +115,7 @@ button:hover{
     justify-content: space-between;
 }
 .grid{
-    display: grid;
-    outline: 1px solid red;
-    columns: 1fr 1fr 1fr;
+    display: grid;    columns: 1fr 1fr 1fr;
     grid-template-rows: .8fr .5fr 2fr .5fr;
     align-items: center;
 }
@@ -146,9 +123,7 @@ footer ul{
     display: flex;
     vertical-align: top;
     font-family: 'Fauna One', serif;
-    font-size: 16pt;
-    outline: 1px solid red;
-    width: 60%;
+    font-size: 16pt;    width: 60%;
     justify-content: space-between;
     padding-left: 19%;
 }
@@ -158,12 +133,10 @@ footer p{
 #sayHi{
     display: flex;
     flex-direction: column;
-    outline: 1px solid red;
 }
 .ftrSocials{
     display: flex;
     justify-content: space-around;
-    outline: solid red;
     width: 70%;
     margin: auto;
     align-items: center;
@@ -173,7 +146,6 @@ footer p{
     justify-content: right;
     vertical-align: middle;
     padding-left: 43%;
-    outline: solid red;
 }
 /* Font Text Headings */
 
@@ -199,6 +171,7 @@ li{
     font-family: 'Comfortaa', cursive;
     font-size: 16pt;
 }
+
 /* Media Query */
 
 @media only screen and (max-width: 600px) {
@@ -211,7 +184,6 @@ li{
     .flex{
         display: flex;
         flex-direction: column;
-        border: 1px solid red;
         width: 100%;
     }
     .skills{
@@ -224,11 +196,9 @@ li{
         text-align: center;
         text-justify: auto;
         width: 100%;
-        border: px slateblue;
     }
     .grid{
         display: grid;
-        outline: 1px solid red;
         columns: 1fr;
         grid-template-rows: .8fr .5fr 2fr .5fr;
         align-items: center;
@@ -237,12 +207,10 @@ li{
         display: flex;
         flex-direction: column-reverse;
         height: 250px;
-        outline: 1px solid red;
     }
     .ftrSocials{
         display: flex;
         justify-content: space-around;
-        outline: solid red;
         width: 70%;
         margin: auto;
         align-items: center;
@@ -252,13 +220,11 @@ li{
         justify-content: right;
         vertical-align: middle;
         padding-left: 43%;
-        outline: solid red;
     }
     .heroGrid{
         display: grid;
         grid-template-columns: 1fr ;
         grid-template-rows: 2fr 2fr 2fr;
-        outline: 1px solid red;
         height: 750px;
     }
     .top{
