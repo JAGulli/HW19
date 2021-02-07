@@ -3,26 +3,28 @@
     <head>
         <title>JoDesign</title>
         <link href="style.css" rel="stylesheet">
+        <script src="./index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Fauna+One&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/dcd5ed23df.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
-            <div class="headerBar">
-                <div class="inline-block logo">
+            <nav class="headerBar">
+                <a class="inline-block logo">
                     <img src="./images/JoDesignHalf.png">
+                </a>
+                <div class="inline-block navItems">
+                    <ul>
+                        <a href="#Welcome"><li class="inline-block">About Me</li></a>
+                        <a href="#MyWork"><li class="inline-block">My Work</li></a>
+                        <a href="#MySkills"><li class="inline-block">My Skills</li></a>
+                        <a href="#Connect"><li class="inline-block">Connect</li></a>
+                    </ul>
                 </div>
-                <nav class="inline-block">
-                <ul class="navHead">
-                    <a href="#Welcome"><li class="inline-block">About Me</li></a>
-                    <a href="#MyWork"><li class="inline-block">My Work</li></a>
-                    <a href="#MySkills"><li class="inline-block">My Skills</li></a>
-                    <a href="#Connect"><li class="inline-block">Connect</li></a>
-                </ul>
-                </nav>
             </div>    
-        </header>
+        </header> 
 
         <section class="heroImg" id="Welcome">
              <div class="heroGrid">   
@@ -44,20 +46,20 @@
 
         <section id="MyWork">
             <h2>My Work</h2>
-            <div class="flex">
-                    <div class="flex"><h3>Toys for Tots <br>Desktop & Mobile Redesign</h3></div>
-                    <div class="flex hide"><p class="hide">Redesigning a website for one of the United State's best known non-profits.</p></div>
-                    <div class="flex"><img class="mockup" src="./images/t4tDesktopBW.png"></div>
+            <div class="workGrid">
+                    <div class="leftTop"><h3>Toys for Tots <br>Desktop & Mobile Redesign</h3></div>
+                    <div class="leftHide hide hideT4t"><p>Redesigning a website for one of the United State's best known non-profits.</p></div>
+                    <div class="rightImg"><img class="mockup t4t" src="./images/t4tDesktop.png"></div>
             </div><br>
-            <div class="flex">
-                    <div class="flex"><h3>US Department of Agriculture <br>Desktop & Mobile Redesign</h3></div>
-                    <div class="flex hide"><p>Helping the USDA reorganize and rebrand to better share their wealth of materials and assistance programs.</p></div>
-                    <div class="flex"><img class="mockup" src="./images/usdaDesktopBW.png"></div>
+            <div class="workGrid">
+                    <div class="leftTop"><h3>US Department of Agriculture <br>Desktop & Mobile Redesign</h3></div>
+                    <div class="leftHide hide hideUSDA"><p>Helping the USDA reorganize and rebrand to better share their wealth of materials and assistance programs.</p></div>
+                    <div class="rightImg"><img class="mockup" src="./images/usdaDesktop.png"></div>
             </div><br>
-            <div class="flex">
-                    <div class="flex"><h3>Third Project Here <br>Mystery Machine</h3></div>
-                    <div class="flex hide"><p>God makes dinosaurs. God kills dinosaurs. God makes man. Man kills God. Man makes dinosaurs.</p></div>
-                    <div class="flex"><img class="mockup" src="./images/Monitor PNG.png"></div>
+            <div class="workGrid">
+                    <div class="leftTop"><h3>Third Project Here <br>Mystery Machine</h3></div>
+                    <div class="leftHide hide"><p>God makes dinosaurs. God kills dinosaurs. God makes man. Man kills God. Man makes dinosaurs.</p></div>
+                    <div class="rightImg"><img class="mockup" src="./images/Monitor PNG.png"></div>
             </div><br>
             <p class="return">Return to Top<a href="#Welcome"> <i class="fas fa-level-up-alt fa-2x"></i></p></a>
         </section>
@@ -87,8 +89,8 @@
                 <p class="return">Return to Top<a href="#Welcome"> <i class="fas fa-level-up-alt fa-2x"></i></p></a><br>
         </section>
 
-        <footer>
-            <div id="Connect">
+        <footer id="Connect" >
+            <div>
                 <ul>
                     <a href="#Welcome"><li class="inline-block fNav">About Me</li></a>
                     <a href="#MyWork"><li class="inline-block fNav">My Work</li></a>
