@@ -135,10 +135,9 @@
         -webkit-filter: grayscale(0);
         -webkit-transform: scale(1.08);
         }
-.hide{
-    display:none;
-    /*opacity: 0;
-    transition: 0.3s all ease-out;*/
+    .hide{
+        display:none;
+
 
 }
 
