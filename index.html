@@ -2,8 +2,6 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-        <script src="./index.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Fauna+One&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/dcd5ed23df.js" crossorigin="anonymous"></script>
@@ -47,17 +45,17 @@
             <h2>My Work</h2>
             <div class="workGrid">
                     <div class="leftTop"><h3>Toys for Tots <br>Desktop & Mobile Redesign</h3></div>
-                    <div class="leftHide hide hideT4t"><p>Redesigning a website for one of the United State's best known non-profits.</p></div>
+                    <!-- hide this - reveal on img hover --> <div class="leftHide hide hideT4t"><p>Redesigning a website for one of the United State's best known non-profits.</p></div>
                     <div class="rightImg"><img class="mockup t4t" src="./images/t4tDesktop.png"></div>
             </div><br>
             <div class="workGrid">
                     <div class="leftTop"><h3>US Department of Agriculture <br>Desktop & Mobile Redesign</h3></div>
-                    <div class="leftHide hide hideUSDA"><p>Helping the USDA reorganize and rebrand to better share their wealth of materials and assistance programs.</p></div>
+                    <!-- hide this - reveal on img hover --><div class="leftHide hide hideUSDA"><p>Helping the USDA reorganize and rebrand to better share their wealth of materials and assistance programs.</p></div>
                     <div class="rightImg"><img class="mockup" src="./images/usdaDesktop.png"></div>
             </div><br>
             <div class="workGrid">
                     <div class="leftTop"><h3>Third Project Here <br>Mystery Machine</h3></div>
-                    <div class="leftHide hide"><p>God makes dinosaurs. God kills dinosaurs. God makes man. Man kills God. Man makes dinosaurs.</p></div>
+                    <!-- hide this - reveal on img hover --><div class="leftHide hide"><p>God makes dinosaurs. God kills dinosaurs. God makes man. Man kills God. Man makes dinosaurs.</p></div>
                     <div class="rightImg"><img class="mockup" src="./images/Monitor PNG.png"></div>
             </div><br>
             <p class="return">Return to Top<a href="#Welcome"> <i class="fas fa-level-up-alt fa-2x"></i></p></a>
@@ -65,20 +63,20 @@
 
         <section id="MySkills">
                 <h2>My Skills</h2>
-                <div class="skills">
-                    <div class="mySkills grid">
+                <div class="skills"> 
+                    <!-- reveal on scroll first to load--><div class="mySkills grid js-reveal">
                         <div><i class="fas fa-clipboard-check fa-7x"></i></div>
                         <div><h3>User Research</h3></div>
                         <div><p>User research is the basis for the rest of what I do as a designer. I take pride in learning as much as I can about how users use the products, as well as their motivations and general attitudes relevant to the project. Digital products that bring people back are delightful, thoughtful & useful. User research helps designers understand what we need to deliver just that.</p></div>
                         <div><button>Example in Case Study</button></div>
                     </div>
-                    <div class="mySkills grid">
+                    <!-- reveal on scroll slight delay --><div class="mySkills grid js-reveal">
                         <div><i class="fas fa-fingerprint fa-7x"></i></div>
                         <div><h3>User Empathy</h3></div>
                         <div><p>Empathy has always been a personal superpower of mine, applying it to design is second nature for me. Examples of User Empathy in action I’ve applied include:</p></div>
                         <div><button>Example in Case Study</button></div>
                     </div>
-                    <div class="mySkills grid">
+                    <!-- reveal on scroll last to load--><div class="mySkills grid js-reveal">
                         <div><i class="fas fa-theater-masks fa-7x"></i></div>
                         <div><h3>Qualitiative Interviews</h3></div>
                         <div><p>The better we understand users, their pain points, and their habits the better we can design for them. This will help our designs be more successful. Numbers, KPIs, and traceable changes in useage are all great. As a UX Designer it’s my pleasure to help bring these business needs to life by designing for the very things that make us human.</p></div>
@@ -118,4 +116,6 @@
 
         </footer>
     </body>
+    <script src="./index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 </html>
