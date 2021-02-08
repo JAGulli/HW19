@@ -120,6 +120,9 @@
         grid-column: 2 /3;
         align-items: center;
     }
+    .leftHide button{
+        outline: red 4px;
+    }
     .mockup{
         display: block;
         margin-left: auto;
