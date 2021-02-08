@@ -283,4 +283,10 @@
             grid-column: 1 / 2 ;
             justify-self: center;
         }
+        .fade{
+			margin: 50px;
+			padding: 50px;
+			background-color: lightgreen;
+			opacity: 1;
+		}
     }
