@@ -4,7 +4,7 @@
         scroll-behavior: smooth;
     }
     body{
-    margin: 0 5% 0 5%;
+    margin: 0 3% 0 3%;
     }
     header{
         background-color: #9BC1BC;
@@ -43,12 +43,15 @@
         border-radius: 4px;    width: fit-content;
         height: fit-content;
         padding: 15px;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
     }
     button:hover{
         font-family: 'Comfortaa', cursive;
         font-weight: bolder;
         background-color: #9BC1BC;
         color: white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
     }
 
     #rtnTop {
@@ -59,7 +62,7 @@
         z-index: 99; /* Make sure it does not overlap */
         border: none; /* Remove borders */
         outline: none; /* Remove outline */
-        background-color: #AABBB6, .8; /* Set a background color */
+        background-color: #5CA4A9, .8; /* Set a background color */
         color: black; /* Text color */
         cursor: pointer; /* Add a mouse pointer on hover */
         padding: 15px; /* Some padding */
@@ -68,7 +71,6 @@
         }
           
     #rtnTop:hover {
-        background-color:#9BC1BC;
         color: white;
     }
 
