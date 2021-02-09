@@ -13,19 +13,18 @@
         height: 800px;
         padding: 25px;
         margin: 0 auto;
-        background-image: linear-gradient(#9BC1BC, white);
+        background-image: linear-gradient(#9BC1BC, #E6EBE0, white);
     }
     #MyWork{
         height: auto;
         padding: 25px;
         margin: 0 auto;
-        outline: 25px #9BC1BC;
     }
     #MySkills{
         height: auto;
         padding: 25px;
         margin: 0 auto;
-        background-image: linear-gradient( white, #9BC1BC);
+        background-image: linear-gradient( white, #E6EBE0,#9BC1BC);
 
     }
     footer{
