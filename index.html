@@ -101,20 +101,24 @@
         </section>
 
         <footer id="Connect" >
-            <div>
-                <ul>
-                    <a href="#Welcome"><li class="inline-block fNav">About Me</li></a>
-                    <a href="#MyWork"><li class="inline-block fNav">My Work</li></a>
-                    <a href="#MySkills"><li class="inline-block fNav">My Skills</li></a>
-                    <a href="#Connect"><li class="inline-block fNav">Connect</li></a>
-                </ul>
-            </div>
             <div id="sayHi" class="flex">
                 <div class="flex">
-                <h2>Say Hi!
-                </h2></div>
-                <div class="flex">
-                <p>If you have any questions please feel free to reach out. I am happy to talk about my past work, my transition to a career in design, or a project you're dreaming of. I'd love to connect and have a chat.</p>
+                    <h2>Say Hi!</h2>
+                    <p>If you have any questions please reach out. I am happy to talk about my past work, my transition to a career in design, or a project you're dreaming of. I'd love to connect and have a chat.</p>
+                <div>
+                    <form action="/action_page.php">
+                      <label for="fname">Hi I am...</label>
+                      <input type="text" id="fname" name="yourname" placeholder="Your name..">
+                  
+                      <label for="lname">You can reach me at...</label>
+                      <input type="text" id="lname" name="youremail" placeholder="Your@email.com">
+                  
+                      <label for="subject"></label>
+                      <textarea id="subject" name="message" placeholder="Leave your note here.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
                 <br><br></div>
             </div>
             <div class="ftrSocials">
