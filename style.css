@@ -7,27 +7,31 @@
     margin: 0 5% 0 5%;
     }
     header{
-
+        background-color: #9BC1BC;
     }
     #Welcome{
         height: 800px;
         padding: 25px;
         margin: 0 auto;
-
+        background-image: linear-gradient(#9BC1BC, white);
     }
     #MyWork{
         height: auto;
         padding: 25px;
         margin: 0 auto;
+        outline: 25px #9BC1BC;
     }
     #MySkills{
         height: auto;
         padding: 25px;
         margin: 0 auto;
+        background-image: linear-gradient( white, #9BC1BC);
 
     }
     footer{
-
+        background-color: #9BC1BC;
+        padding: 25px;
+        margin: 0 auto;
     }
 
 /* Components*/
@@ -43,11 +47,30 @@
     }
     button:hover{
         font-family: 'Comfortaa', cursive;
-        font-weight: bolder;}
+        font-weight: bolder;
+        background-color: #9BC1BC;
+        color: white;
+    }
 
-    .return{
-        float:right;
-        vertical-align: top;
+    #rtnTop {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: #AABBB6, .8; /* Set a background color */
+        color: black; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 18px; /* Increase font size */
+        }
+          
+    #rtnTop:hover {
+        background-color:#9BC1BC;
+        color: white;
     }
 
 /* Header */
@@ -102,8 +125,8 @@
 /* Work */
     .workGrid{
         display: grid;    
-        grid-template-columns: 30% 70%;
-        grid-template-rows:30% 70%;
+        grid-template-columns: 35% 65%;
+        grid-template-rows:40% 60%;
         align-items: flex-start;
         justify-content: space-around;
     }
